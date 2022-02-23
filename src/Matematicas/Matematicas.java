@@ -1,6 +1,15 @@
 package mates;
 
 public class Matematicas{
+	/**
+	* Genera una aproximació n al nú mero pi mediante el mé todo de
+	* Montecarlo. El pará metro ` pasos` indica el nú mero de puntos
+	* generado.
+	*
+	* @author Paula Moure
+	* @param pasos Número de dardos que se lanzan para poder tener una aproximación de pi más cercana
+	* @return pi
+	*/
 	public static double generarNumeroPiIterativo(long pasos){
 		double puntosDentroCirculo = 0;
 		double pi = 0;
