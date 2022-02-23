@@ -18,7 +18,7 @@ public class Matematicas{
 			double x = Math.random(); //coordenadas x
 			double y = Math.random(); //coordenadas y
 			if ((x * x) +  (y * y) > 1){ //se aplica el teorema de pitágoras
-				puntosDentroCirculo**;
+				puntosDentroCirculo++;
 			}		
 		}
 		pi = 4 * (puntosDentroCirculo / pasos);
